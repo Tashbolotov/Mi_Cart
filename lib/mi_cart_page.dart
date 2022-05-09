@@ -62,9 +62,11 @@ class MiCartPage extends StatelessWidget {
                   SizedBox(
                     width: 20,
                   ),
-                  Text(
-                    ' +79 516 787 865',
-                    style: TextStyle(color: Color(0xff00897B), fontSize: 20),
+                  Expanded(
+                    child: Text(
+                      ' +79 516 787 865',
+                      style: TextStyle(color: Color(0xff00897B), fontSize: 20),
+                    ),
                   )
                 ],
               ),
@@ -88,9 +90,11 @@ class MiCartPage extends StatelessWidget {
                   SizedBox(
                     width: 20,
                   ),
-                  Text(
-                    ' tashbolotovelaman@gmail.com',
-                    style: TextStyle(color: Color(0xff00897B), fontSize: 20),
+                  Expanded(
+                    child: Text(
+                      ' tashbolotovelaman@gmail.com',
+                      style: TextStyle(color: Color(0xff00897B), fontSize: 20),
+                    ),
                   )
                 ],
               ),
